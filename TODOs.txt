@@ -1,0 +1,21 @@
+TODO support regular positional arguments
+TODO support single letter arguments: -a
+TODO support multi letter arguments: --abc
+TODO support passing value with parameter: --abc=def, --abc def, -a def, -ab def
+TODO on another occurrence of parameter override previous value
+TODO support negation of parameter for boolean arguments: --no-abc, --abc=false, --abc=no
+TODO support limited set of allowed parameter values
+TODO handle errors
+TODO handle mutually exclusive arguments
+TODO handle arguments with multiple value: --abc=def,ghi
+TODO auto generate help
+TODO handle arguments that may take different type: --abc=123 --abc=def
+TODO multiple occurrences -aaa, only for single letter arguments
+TODO simple validation + customizable error messages
+TODO single letter arguments in a short form -abc = -a -b -c
+TODO Did you mean ...?
+TODO javadoc
+TODO handle ""
+TODO debug mode
+TODO configurable messages
+TODO support multivalue arguments
